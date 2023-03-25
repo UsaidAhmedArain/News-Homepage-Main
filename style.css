@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    margin: 25px;
+    cursor: pointer;
+    display: block;
+}
+.header{
+    display: flex;
+}
+.header ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+    float: left;
+    margin: 15px;
+    list-style-type: none;
+}
+.header ul li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+.header a:hover{
+    color: red;
+}
+.desktop{
+    display: inline-block;
+    height: 310px;
+    width: 910px;
+    margin: 35px;
+}
+.card{
+    height: 400px;
+    background-color: black;
+    width: 250px;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    bottom: -27px;
+}
+.card h1{
+    margin: 18px;
+    color: hsl(35, 77%, 62%);
+}
+.card b{
+    color: hsl(36, 100%, 99%);
+    padding: 0 10px;
+    margin: 10px;
+}
+.card p{
+    font-size: 12px;
+    color: hsl(236, 13%, 42%);
+    padding: 0 10px;
+    margin: 11px;
+}
+.card hr{
+    margin: 13px;
+    width: 220px;
+    color: hsl(236, 13%, 42%);
+}
+.card h3{
+    font-size: 15px;
+    color: hsl(36, 100%, 99%);
+    margin: 18px;
+}
+.card h3:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+#text{
+    display: inline-block;
+    position: relative;
+    top:-80px;
+    left:5px;
+    height: 239px;
+}
+#text h1{
+    display: block;
+    color: black;
+    font-weight: 800;
+    margin: 32px;
+    padding:0 5px;
+    font-size: 40px;
+}
+#text span{
+    color: hsl(236, 13%, 42%);
+    display: inline-block;
+    color: hsl(236, 13%, 42%);
+    position: relative;
+    bottom: 190px;
+    left: 598px;
+    padding:0 15px;
+    word-spacing: 3px;
+}
+#text button{
+    background-color: black;
+    color: hsl(36, 100%, 99%);
+    width: 35%;
+    height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    bottom: 157px;
+    left: 613px;
+    padding: 5px;
+    border: none;
+}
+#text button:hover{
+    background-color: red;
+}
+#items{
+    display: flex;
+    justify-content: space-around;
+    margin: -34px;
+    height: 120px;
+    width: 101%;
+    position: relative;
+    bottom: 129px;
+}
+.details{
+    position: relative;
+    bottom: 1px;
+    left: 89px;
+    margin: -79px;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px;
+}
+#item1{
+    width: 300px;
+    padding: 5px;
+}
+
+#item2{
+    width: 300px;
+    padding: 5px;
+}
+
+#item3{
+    width: 310px;
+    padding: 5px;
+}
+.details .para:hover{
+    color: red;
+}
